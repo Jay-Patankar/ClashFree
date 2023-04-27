@@ -5,13 +5,13 @@ Key functionalities and features include:
 
 * Drag and drop UI which allows speedy modifications in the schedule, without requiring manual input of long names!
 * Clashes between resources can be validated with a single button click, allowing the human scheduler to focus on more important aspects of timetable design.
-* Input data (Teacher names, Subject names and Room number labels) need not be manually fed; instead user can simply upload a relevant PDF document containing this data from which the labels are automatically extracted.
+* Input data (Teacher names, Subject names and Room number labels) need not be manually fed; instead user can simply upload a relevant PDF document containing this data from which the labels are automatically extracted. (an example input file has been provided in the repo, called 'TECOMP AllClass TT-1.pdf')
 * The workspace opens up with a pre-filled schedule containing subject names, which can be later modified as required by the human scheduler. This initial state of the timetable is not random, rather it is genrated using the Genetic Algorithm with common constraints which can be modified as per your needs!
 * Once a complete and consistent schedule has been developed, a user has the choice of exporting time-tables for each class as a PDF for further actions. 
 
 Note : In order to see ClashFree in action, please clone the ClashFree repo and execute the Python script (Time_Table_Code.py) it contains. Design your own schedule, validate on the go and hit export! The PDF will be generated in your workspace folder on your local machine. 
 
-Here is a quick tour of our project ClashFree!
+Here is a quick tour of our project- ClashFree!
 
 
 ![Screenshot (61)](https://user-images.githubusercontent.com/107458263/234787596-f43120f2-abf2-4c47-a5f0-92843984df60.png)
