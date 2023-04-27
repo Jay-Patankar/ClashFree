@@ -3,16 +3,15 @@
 ClashFree is an automatic timetable builder and validation tool that provides a user friendly workspace to design schedules in a robust way.  
 Key functionalities and features include:
 
-* Drag and drop UI which allows speedy modifications in the schedule , without requiring to type in long names !
-* Clashes between resources can be validated on a single button click , allowing the human scheduler to focus on more important aspects of timetable design.
-* Data ( Teacher names , subject names and room number labels ) need not be manually fed ; instead user needs to upload a relevant pdf document containing this data from which the labels are automatically extracted.
-* The workspace opens up with a prefilled schedule containing subjects , which can be later modified as required by the human scheduler. This initial state of the timetable is no random and is genrated using Genetic Algorithms .
-* Once a complete and consistent schedule has been developed , user has the choice of exporting it as a pdf for further actions. 
+* Drag and drop UI which allows speedy modifications in the schedule, without requiring manual input of long names!
+* Clashes between resources can be validated with a single button click, allowing the human scheduler to focus on more important aspects of timetable design.
+* Input data (Teacher names, Subject names and Room number labels) need not be manually fed; instead user can simply upload a relevant PDF document containing this data from which the labels are automatically extracted.
+* The workspace opens up with a pre-filled schedule containing subject names, which can be later modified as required by the human scheduler. This initial state of the timetable is not random, rather it is genrated using the Genetic Algorithm with common constraints which can be modified as per your needs!
+* Once a complete and consistent schedule has been developed, a user has the choice of exporting time-tables for each class as a PDF for further actions. 
 
-Note : In order to see ClashFree in action , please download the folder named ClashFree and execute the python script it contains. Design a schedule , validate it and hit export....yu can obtain the pdf exported in the same folder where the python script resides. 
+Note : In order to see ClashFree in action, please clone the ClashFree repo and execute the Python script (Time_Table_Code.py) it contains. Design your own schedule, validate on the go and hit export! The PDF will be generated in your workspace folder on your local machine. 
 
-Here is a quick tour of our project ClashFree !!  
-
+Here is a quick tour of our project ClashFree!
 
 
 ![Screenshot (61)](https://user-images.githubusercontent.com/107458263/234787596-f43120f2-abf2-4c47-a5f0-92843984df60.png)
@@ -29,11 +28,14 @@ Here is a quick tour of our project ClashFree !!
 
 ![Screenshot (67)](https://user-images.githubusercontent.com/107458263/234789325-5a0f54a1-4bc1-4b40-ae6b-1a060a89607d.png)
 
+## UI Demo:
 ![Screenshot (73)](https://user-images.githubusercontent.com/107458263/234789384-57fdf40f-b241-489d-bd8d-40aa591c5b33.png)
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/107458263/234789460-c6072549-f9f7-4aba-9e92-c8fa37e2efd1.png)
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/107458263/234789530-3d7062c8-7a88-422e-ba6f-cc7ccddcf6f7.png)
 
+## Future Scope:
 ![Screenshot (72)](https://user-images.githubusercontent.com/107458263/234789611-f3bb26b1-cbbb-40bf-a351-614b4f4c2a60.png)
 
+We hope you enjoy using ClashFree to make your scheduling as easy and as hassle-free as posssible! Kindly star the repo if you find it useful and relevant!
